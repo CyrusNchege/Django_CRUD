@@ -9,7 +9,7 @@
     <div class="card-body">
       <p class="card-text">{{tasks.description}}</p>
        <a href="{% url 'tasks:delete_task' tasks.id %}" class="btn btn-danger">DELETE</a>
-       <a href="{% url 'tasks:update_task' tasks.id %}" class="btn btn-primary">UPDATE</a>
+       <a href="{% url 'tasks:update_task' tasks.id %}" class="btn btn-warning">UPDATE</a>
     </div>
     <div class="card-footer text-muted">
     </div>
